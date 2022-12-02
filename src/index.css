@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+.header-img .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+
+.card img {
+  height: 320px;
+  object-fit: cover;
+  /* border: 1px solid #eee; */
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.contactImg img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  /* border: 1px solid #eee; */
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.contactForm textarea{
+  height: 138px;
+}
+
